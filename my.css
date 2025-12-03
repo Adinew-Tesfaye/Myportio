@@ -1,0 +1,102 @@
+ body {
+            font-family: Arial, sans-serif;
+            margin: 10;
+            padding: 10;
+            background-color: burlywood;
+            color: #333;
+        }
+        header {
+            background-color: black;
+            color: #fff;
+            padding: 100px;
+            text-align: center;
+            background-image: url(images/web.jpg);
+    
+          
+        }
+        header h1 {
+            margin: 0;
+        }
+        nav {
+           position: fixed;
+           width: 100%;
+            background-color: #444;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        #about {
+            background-color:lab(20,30 13);
+           
+        }
+        #skills ul {
+            list-style: none;
+            padding: 0;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+              background-color:chocolate;
+        }
+        #skills li {
+           background-color:white;
+            margin: 10px;
+         padding: 10px 20px;
+            border-radius: 5px;
+        }
+        #experience .job {
+            margin-bottom: 20px;
+        
+        }
+        #projects .project {
+            background-color:green
+            margin-bottom: 20px;
+          
+        #contact form {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color:green
+        }
+        #contact input, #contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        #contact button {
+            background-color: #8080;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #contact button:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }

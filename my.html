@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+<link rel="stylesheet" href="my.css">
+<style>
+    #skills li {
+           background-color:black;
+            margin: 10px;
+         padding: 10px 20px;
+            border-radius: 5px;
+        }
+    #contact form {
+        background-image: url(images/web.jpg);
+            max-width: 600px;
+            margin: 0 auto;
+            background-color:gray
+        }
+        #contact input, #contact textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        #contact button {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #contact button:hover {
+            background-color: #555;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+      
+        @media (max-width: 768px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+        }
+
+</style>
+       
+</head>
+<body>
+  
+    
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+
+    </nav>
+ <header>
+        <h1>ADINEW TESFAYE</h1>
+        <p>Software Developer | Tech student | Problem Solver</p>
+        <img style="border: 3px solid black;border-radius:30%;float:center;
+      border-bottom: #f9f9;" src="Images/deskimage.jpg"alt="image of programmer"height="300px,width=800px";float:center;
+    
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+
+      <p><img style="border: 1px solid black;border-radius:30%;float:center;
+      border-bottom: #f9f9;" src="Images/ade.jpg"alt="image of programmer"height="150px,width=100px";float=right;> Hello! I'm Adinew Tesfaye, a passionate software developer with over 2 years of experience in building web applications. I want to specialize in full-stack development, focusing on creating efficient, scalable, and user-friendly solutions. My journey in tech started during my college days, where I majored in Computer Science. Since then, I've worked on various projects ranging from small startups to large enterprises.</p>
+        <p>In my free time, I enjoy hiking, reading tech blogs, and contributing to open-source projects. I'm always eager to learn new technologies and tackle challenging problems.</p>
+    </section>
+
+    <section id="skills" style="background-color:blue;">
+        <h2>Skills</h2> 
+             <img style="border: 1px solid blue;radius:50%;float:left;" src="Images/web.jpg"alt="image of programmer"height="230px"width="
+300px">
+   
+        <ul>
+            <li>HTML5 & CSS3</li>
+            <li>JavaScript (ES6+)</li>
+            <li>React.js</li>
+            <li>Node.js</li>
+            <li>Python</li>
+            <li>SQL & NoSQL Databases</li>
+            <li>Git & Version Control</li>
+            <li>Responsive Design</li>
+            <li>API Development</li>
+            <li>Cloud Services (AWS, Azure)</li>
+        </ul>
+    </section>
+
+    <section id="experience">
+        <h2>Professional Experience</h2>
+        <div class="job">
+            <h3>Senior Software Engineer - TechCorp Inc.</h3>
+            <p>January 2022 - Present</p>
+            <ul>
+                <li>Led a team of 5 developers in building a scalable e-commerce platform.</li>
+                <li>Optimized application performance, reducing load times by 40%.</li>
+                <li>Integrated third-party APIs for payment processing and analytics.</li>
+            </ul>
+        </div>
+        <div class="job">
+            <h3>Software Developer - Innovate Solutions</h3>
+            <p>June 2018 - December 2021</p>
+            <ul>
+                <li>Developed and maintained web applications using React and Node.js.</li>
+                <li>Collaborated with designers to implement responsive UI/UX.</li>
+                <li>Conducted code reviews and mentored junior developers.</li>
+            </ul>
+        </div>
+        <div class="job">
+            <h3>Intern - Startup Hub</h3>
+            <p>May 2017 - August 2017</p>
+            <ul>
+                <li>Assisted in prototyping a mobile app using JavaScript frameworks.</li>
+                <li>Performed bug fixes and feature enhancements.</li>
+            </ul>
+        </div>
+    </section>
+    
+
+    <section id="projects" 
+           <img style="border: px solid green;radius:50%;float:left;" src="Images/web.jpg"alt="image of programmer"height="230px"width="
+300px">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>E-Commerce Website</h3>
+            <p>A full-stack online store built with React, Node.js, and MongoDB. Features include user authentication, product catalog, shopping cart, and payment integration.</p>
+            <a href="https://github.com/Adinew-Tesfaye/ecommerce" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Task Management App</h3>
+            <p>A web-based application for managing tasks and todos. Built with Vanilla JS, HTML, CSS, and local storage for persistence.</p>
+            <a href="https://github.com/Adinew-Tesfaye/task-app" target="_blank">View on GitHub</a>
+        </div>
+        <div class="project">
+            <h3>Portfolio Website</h3>
+            <p>This very site! A personal portfolio showcasing my skills and experience, built with HTML, CSS, and JavaScript.</p>
+            <a href="https://github.com/Adinew-Tesfaye/portfolio" target="_blank">View on GitHub</a>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <input type="email" id="email" placeholder="makbeltesfyae570@gmail.com" required>
+            <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Adinew Tesfaye. All rights reserved.</p>
+    </footer>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+           
+            const navLinks = document.querySelectorAll('nav a');
+            navLinks.forEach(link => {
+                link.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    const targetId = link.getAttribute('href').substring(1);
+                    const targetSection = document.getElementById(targetId);
+                    targetSection.scrollIntoView({ behavior: 'smooth' });
+                });
+            });
+
+            const contactForm = document.getElementById('contactForm');
+            contactForm.addEventListener('submit', (e) => {
+                e.preventDefault();
+                const name = document.getElementById('name').value;
+                const email = document.getElementById('email').value;
+                const message = document.getElementById('message').value;
+                
+                if (name && email && message) {
+                    alert(`Thank you, ${name}! Your message has been sent.`);
+                    contactForm.reset();
+                } else {
+                    alert('Please fill in all fields.');
+                }
+            });
+        });
+    </script>
+
+    </body>
+</html>
